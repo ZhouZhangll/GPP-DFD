@@ -1,6 +1,6 @@
 # GPP-DFD
 
-This is the implementation used for gradient progressive pruning(GPP) and dual feature distillation.  For more details about the motivation, techniques and experimental results, refer to our paper.
+This is the implementation used for gradient progressive pruning(GPP) and dual feature distillation(DFD).  For more details about the motivation, techniques and experimental results, refer to our paper.
 
 Prerequisites
 ------------
