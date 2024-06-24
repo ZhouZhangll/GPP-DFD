@@ -7,7 +7,7 @@ window_size=3
 output_dir=$code_dir/output/GDbert${target_sparsity}/${TASK_NAME}
 teacher_dir=$code_dir/base/${TASK_NAME}
 
-CUDA_VISIBLE_DEVICES=1 python run_zbert_glue.py \
+python3 run_GDbert_glue.py \
   --model_name_or_path bert-base-uncased \
   --task_name $TASK_NAME \
   --do_distill \
